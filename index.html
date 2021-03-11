@@ -1,0 +1,92 @@
+﻿<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>modrule</title>
+  <link rel="stylesheet" href="https://stackedit.io/style.css" />
+</head>
+
+<body class="stackedit">
+  <div class="stackedit__html"><h1 id="관리자-매뉴얼">관리자 매뉴얼</h1>
+<h1 id="차례">차례</h1>
+<ol>
+<li><a href="#%EB%AA%85%EB%A0%B9%EC%96%B4">명령어</a>
+<ol>
+<li><a href="#%EB%AA%85%EB%A0%B9%EC%96%B4-%ED%98%95%EC%8B%9D">명령어 형식</a></li>
+<li><a href="#%EC%8B%9C%EA%B0%84-%ED%98%95%EC%8B%9D">시간 형식</a></li>
+</ol>
+</li>
+<li><a href="#%EC%A3%BC%EC%9D%98%EC%82%AC%ED%95%AD">주의사항</a></li>
+</ol>
+<h1 id="명령어">명령어</h1>
+<h2 id="명령어-형식">명령어 형식</h2>
+<ol>
+<li>mute<br>
+대상을 채팅금지시킵니다.<br>
+<code>!mute @대상 이유</code></li>
+<li>tempmute<br>
+대상을 일정 기간동안 채팅금지시킵니다. 시간형식 지정법은 <a href="#%EC%8B%9C%EA%B0%84-%ED%98%95%EC%8B%9D">여기</a>를 참고하세요.<br>
+<code>!tempmute @대상 기간 이유</code></li>
+<li>clear<br>
+채팅을 특정 개수만큼 지웁니다<br>
+<code>!clear 개수</code><br>
+혹은 특정 사용자의 채팅을 최근 채팅부터 특정 개수만큼 지웁니다.<br>
+<strong>주의</strong>) 해당 사용자가 서버를 나갈 경우 오류로 인해 <strong>다른사람이 친 채팅을 포함해서</strong> 해당 개수만큼 지워집니다. 조심해서 사용하세요<br>
+<code>!clear @대상 개수</code></li>
+<li>infractions<br>
+대상의 경고 기록을 확인합니다.<br>
+<code>!infractions @대상</code></li>
+<li>warn<br>
+대상을 경고합니다<br>
+<code>!warn @대상 이유</code></li>
+<li>slowmode<br>
+채널의 채팅 슬로우모드를 수정합니다. 시간형식 지정법은 <a href="#%EC%8B%9C%EA%B0%84-%ED%98%95%EC%8B%9D">여기</a>를 참고하세요<br>
+<code>!slowmode 시간</code></li>
+</ol>
+<h2 id="시간-형식">시간 형식</h2>
+
+<table>
+<thead>
+<tr>
+<th>단위</th>
+<th>문자</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>초</td>
+<td>s</td>
+</tr>
+<tr>
+<td>분</td>
+<td>m</td>
+</tr>
+<tr>
+<td>시</td>
+<td>h</td>
+</tr>
+<tr>
+<td>일</td>
+<td>d</td>
+</tr>
+<tr>
+<td>주</td>
+<td>w</td>
+</tr>
+</tbody>
+</table><p>예시) 1초 : <code>1s</code> 3분 : <code>3m</code> 1분 30초 : <code>90s</code></p>
+<h1 id="주의사항">주의사항</h1>
+<ol>
+<li>장난으로 진짜 뮤트나 경고 금지</li>
+<li>슬로우모드 없어도 단타 금지</li>
+<li>규칙은 최대한 암기</li>
+<li>#관리사무소 이외의 곳에서 !infractions쓰지 않기</li>
+<li>경고 기준에 애매한 것 같으면 꼭 #관리사무소에서 논의하기</li>
+<li>서버장 호출에 부담갖지 않기</li>
+</ol>
+</div>
+</body>
+
+</html>
